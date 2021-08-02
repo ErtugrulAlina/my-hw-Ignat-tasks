@@ -1,0 +1,27 @@
+.superInput {
+    margin: 10px;
+    height: 20px;
+    width: auto;
+    border-radius: 5px;
+    border: 2px solid forestgreen;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /*border: 3px solid darkturquoise;*/
+    /*background: aqua;*/
+}
+.superInput:focus{
+    outline: none;
+    border: 2px solid limegreen;
+}
+
+.errorInput {
+    border: 3px solid lime;
+    background: lightpink;
+    opacity: 40%;
+}
+
+.error {
+    color: red;
+}
+.spanWrapper{
+    min-height: 30px;
+}

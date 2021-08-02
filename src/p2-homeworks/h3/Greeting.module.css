@@ -1,0 +1,39 @@
+.greetingContainer{
+    display: flex;
+    align-items: flex-start;
+    height: 80px;
+}
+.input{
+    margin: 10px;
+    height: 20px;
+    width: auto;
+    border-radius: 5px;
+    border: 2px solid forestgreen;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+.input:focus{
+    outline: none;
+    border: 2px solid limegreen;
+}
+.error {
+    border: 1px solid red;
+}
+.button{
+    width: 70px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid darkgreen;
+    background-color: aquamarine;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5)
+}
+.greetingContainer span{
+    margin: 10px;
+}
+.errorMessage{
+    color: red;
+    font-size: small;
+    margin-left: 10px;
+}
+
+
+
