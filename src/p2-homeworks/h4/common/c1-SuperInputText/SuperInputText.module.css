@@ -14,9 +14,8 @@
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: lightpink;
-    opacity: 40%;
+    border: 2px solid red;
+
 }
 
 .error {

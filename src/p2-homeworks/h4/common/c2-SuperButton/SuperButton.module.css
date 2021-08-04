@@ -1,12 +1,48 @@
+
 .default {
     margin: 10px;
     width: 100px;
-    border-radius: 10px;
-    background-color: #b8fdfd;
+    /*!*border-radius: 15%;*!*/
+
 }
 
 .red {
     width: 100px;
-    background: red;
-    border-radius: 10px;
+    background: lightpink;
+    /*border-radius: 10px;*/
 }
+
+.default:hover {
+    color: #fff;
+    background: #4050ea;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+
+}
+.red:hover {
+    color: #fff;
+    background: #d9293b;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+
+}
+/*}*/
+/*.default{*/
+/*    border: 2px solid #AEA8D3;*/
+/*    color: #FFF;*/
+/*}*/
+/*.default:after {*/
+/*    border: 3px solid #AEA8D3;*/
+/*    opacity: 0;*/
+/*    -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);*/
+/*    -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);*/
+/*    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);*/
+/*    transform: translateX(-50%) translateY(-50%) rotate(-25deg);*/
+/*}*/
+/*.default:hover:after {*/
+/*    height: 400% !important;*/
+/*    opacity: 1;*/
+/*    color: #FFF;*/
+/*}*/
